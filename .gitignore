@@ -1,0 +1,6 @@
+# Ignore macOS .DS_Store #
+.DS_Store
+
+# Ignore Work and In Progress Scripts #
+Scripts/Work
+Scripts/Testing
