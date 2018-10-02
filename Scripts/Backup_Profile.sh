@@ -14,9 +14,9 @@ cp -R ~/Documents/scripts ~/Github/bash
 echo "Complete"
 
 #PICO-8 carts copy
-echo "Copying PICO-8 carts.."
-cp -R ~/Library/Application\ Support/pico-8/carts/learning ~/Github/PICO-8
-echo "Complete"
+#echo "Copying PICO-8 carts.."
+#cp -R ~/Library/Application\ Support/pico-8/carts/games ~/Github/PICO-8
+#echo "Complete"
 
 #Homebrew Brewfile
 echo "Creating Brewfile..."
