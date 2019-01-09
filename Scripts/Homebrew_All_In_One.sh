@@ -17,13 +17,9 @@ brew cask upgrade
 echo "Checking for missing dependancies..."
 brew missing
 
-#Deletes dead symlinks
-echo "Removing dead symlinks"
+#Deletes dead symlinks and deletes old versions of formulae and left over files
+echo "Removing dead symlinks and cleaning up left over files..."
 brew prune
-
-#Deletes old versions of formulae and left over files
-echo "Cleaning up left over files..."
-brew cleanup
 
 #Determines if there is any issues with Homebrew
 echo "Checking for any issues..."
