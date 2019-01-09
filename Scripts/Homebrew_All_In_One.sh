@@ -19,7 +19,7 @@ brew missing
 
 #Deletes dead symlinks and deletes old versions of formulae and left over files
 echo "Removing dead symlinks and cleaning up left over files..."
-brew prune
+brew cleanup
 
 #Determines if there is any issues with Homebrew
 echo "Checking for any issues..."
